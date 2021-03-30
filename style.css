@@ -1,6 +1,7 @@
 body{
   /*entire background*/
-  background: #ffffff
+  background: #ffffff;
+  text-align:center;
 }
 h1{
   text-align:center;
