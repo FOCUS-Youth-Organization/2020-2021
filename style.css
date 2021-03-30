@@ -1,0 +1,14 @@
+body{
+  /*entire background*/
+  background: #ffffff
+}
+h1{
+  text-align:center;
+  background:#c0deb1;
+  /*adding to the length of rectangle thing*/
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  /*rounding the corner*/
+  border-radius: 7px;   
+}
