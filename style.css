@@ -1,15 +1,151 @@
 body{
-  /*entire background*/
-  background: #ffffff;
-  text-align:center;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
 }
+/*nav bar*/
+.nav_bar{
+  z-index: 10;
+  background: #000000;
+  position: fixed;
+  width: 100%;
+  height: 55px;
+  left: 0px;
+  top: 0px;
+}
+.nav_bar>nav>ul{
+  list-style-type: none;
+  margin: auto;
+  width: 70%;
+}
+.nav_bar>nav>ul>a{
+  text-decoration: none;
+  line-height: 50px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 47px;
+  font-size: 20px;
+}
+.nav_bar>nav>ul>a>li{
+  display: inline;
+}
+/*formatting nav bar logo*/
+#nav_bar_logo{
+  width: 30px;
+  height: 30px;
+  vertical-align: -8.3px;
+  padding-right: 10px;
+}
+.nav_bar>nav>ul>a:hover{
+  font-weight: bold;
+  font-size: 22.5px;
+}
+/*backdrop fomatting*/
+#backdrop{
+  margin: 0px;
+  left: 0px;
+  position: absolute;
+  padding: 0px;
+  top: 55px;
+  width: 100%;
+  height: 815px;
+  z-index: -1;
+  object-fit: cover;
+  object-position:0px 0px; 
+}
+/*main logo fomatting*/
+#mainlogo{
+  width: 178px;
+  height: 178px;
+  margin: auto;
+  margin-top: 130px;
+  display: block;
+}
+/*title*/
 h1{
+  margin-top: 300px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 59px;
+  text-align: center;
+  color: #FFFFFF;
+}
+#slogan{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+.graphics{
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  box-shadow: 30px 30px #71666D
+}
+#about_graphic{
+  margin: 16%;
+  margin-bottom: 30px;
+}
+#events_graphic{
+  margin-top:16%;
+  margin-left: 59%;
+}
+#joinus_graphic{
+  margin-left: 16%;
+  margin-top: 980px;
+}
+#sponsor_graphic{
+  margin-left: 59%;
+  margin-top: 980px;
+}
+
+.image_blurbs{
+  position: absolute;
   text-align:center;
-  background:#c0deb1;
-  /*adding to the length of rectangle thing*/
-  padding: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
-  /*rounding the corner*/
-  border-radius: 7px;   
+  width: 420px;
+}
+.image_blurbs>h2{
+  font-size: 48px;
+  font-weight: 900;
+}
+.image_blurbs>p{
+  font-size:22px;
+  color: #000000;
+}
+#about_blurb{
+  margin-left: 14.5%;
+  margin-top: 630px;
+}
+#events_blurb{
+  margin-left: 57.5%;
+  margin-top: 630px;
+}
+#joinus_blurb{
+  margin-left:14.5%;
+  margin-top:1400px;
+}
+#sponsor_blurb{
+  margin-left:57.5%;
+  margin-top:1400px;
+}
+hr{
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #000000;
+  margin-top: 2000px;
+  margin-left: 4%;
+  margin-right: 4%;
+  padding: 0;
+ }
+.about_footer{
+  position: absolute;
+  left: 20%;
+}
+.about_footer>ul{
+  left: 10%;
 }
