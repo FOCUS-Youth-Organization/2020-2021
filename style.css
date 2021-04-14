@@ -5,9 +5,10 @@ body{
 /*nav bar*/
 .nav_bar{
   z-index: 10;
+  border: 2px solid #02f7f7;
   background: #000000;
   position: fixed;
-  width: 100%;
+  width: 99.7%;
   height: 55px;
   left: 0px;
   top: 0px;
@@ -32,15 +33,47 @@ body{
   margin:0px;
   width: 50%;
 }
-.nav_bar>nav>ul>a{
+.nav_bar>nav>ul>li{
+  display: inline;
+}
+.nav_bar>nav>ul>li>a{
   text-decoration: none;
   text-align: center;
   color: #FFFFFF;
   font-size: 20px;
   padding-left: 0.5%;
 }
-.nav_bar>nav>ul>a>li{
-  display: inline;
+.nav_block>nav>ul>li.dropdown {
+  display: inline-block;
+}
+.drop_down_content {
+  display: none;
+  position: absolute;
+  top: 41px;
+  background-color: #000000;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.drop_down_content>a {
+  color: #ffffff;
+  font-size: 18px;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.drop_down_content>a:hover {
+  border: 2px solid #02f7f7;
+  font-weight: bold;
+  font-size: 20px;
+}
+.drop_down:hover .drop_down_content {
+  display: block;
+}
+/*changes font color of the page user is currently on*/
+.nav_bar>nav>ul>li>a.active_site{
+  color: #02f7f7;
 }
 /*formatting nav bar logo*/
 .nav_bar>nav>img{
@@ -51,7 +84,8 @@ body{
   margin-left: 1.8%;
   margin-top: 5px;
 }
-.nav_bar>nav>ul>a:hover{
+/*hover effect of nav bar elements*/
+.nav_bar>nav>ul>li:hover{
   font-weight: bold;
   font-size: 22.5px;
 }
