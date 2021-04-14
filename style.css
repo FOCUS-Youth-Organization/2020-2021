@@ -5,7 +5,7 @@ body{
 /*nav bar*/
 .nav_bar{
   z-index: 10;
-  border: 2px solid #02f7f7;
+  border: 2px solid #b3e5ff;
   background: #000000;
   position: fixed;
   width: 99.7%;
@@ -64,7 +64,7 @@ body{
   text-align: left;
 }
 .drop_down_content>a:hover {
-  border: 2px solid #02f7f7;
+  border: 2px solid #b3e5ff;
   font-weight: bold;
   font-size: 20px;
 }
@@ -73,7 +73,7 @@ body{
 }
 /*changes font color of the page user is currently on*/
 .nav_bar>nav>ul>li>a.active_site{
-  color: #02f7f7;
+  color: #b3e5ff;
 }
 /*formatting nav bar logo*/
 .nav_bar>nav>img{
