@@ -160,6 +160,24 @@ body{
 #founders_banner{
   margin-top: 280px;
 }
+.profiles{
+  float: left;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 80px;
+  margin-left:8%;
+  margin-right:8%;
+}
+.profiles>img{
+  object-fit: cover;
+  object-position:0px 0px; 
+  width: 306.05px;
+  height: 306.05px;
+  border-radius: 50%;
+}
+.profiles>div{
+  text-align: center;
+}
 #officers_banner{
   margin-top: 1107px;
 }
@@ -187,7 +205,7 @@ hr{
   border-top: 1px solid #000000;
   left: 4%;
   right: 4%;
-  top: 200px;
+  top: 3800px;
   padding: 0;
  }
 
