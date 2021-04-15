@@ -5,7 +5,7 @@ body{
 /*nav bar*/
 .nav_bar{
   z-index: 10;
-  border: 2px solid #b3e5ff;
+  /*border: 2px solid #b3e5ff;*/
   background: #000000;
   position: fixed;
   width: 99.7%;
@@ -66,7 +66,7 @@ body{
 .drop_down_content>a:hover {
   border: 2px solid #b3e5ff;
   font-weight: bold;
-  font-size: 20px;
+  /*font-size: 20px;*/
 }
 .drop_down:hover .drop_down_content {
   display: block;
@@ -268,5 +268,3 @@ hr{
 #soc_footer>p{
   left: 20%;
 }
-
-
