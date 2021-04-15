@@ -87,7 +87,7 @@ body{
 /*hover effect of nav bar elements*/
 .nav_bar>nav>ul>li:hover{
   font-weight: bold;
-  font-size: 22.5px;
+  font-size: 20px;
 }
 /*dropdown tings*/
 .dropdown{
