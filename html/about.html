@@ -1,50 +1,58 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
+        <! -- the favicon line must be first, do not remove the line underneath this line -->
+        
+        <script src="https://kit.fontawesome.com/83edd56ebe.js" crossorigin="anonymous"></script>
+        <link rel="favicon icon" type="image/png" href="images/FOCUSYouth Logo.png" />
         <!--- css --->
-        <link rel = "stylesheet" href = "../css/style.css">
-        <!--- javascript ---> 
+        <link rel="stylesheet" href="../css/about.css">
+        <!--- javascript --->
         <script src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.js"></script>
-        <!--- font ---> 
+        <!--- font --->
         <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     </head>
-
+    
     <body>
-        <div class = "nav_bar">
-            <nav>
-              <img src="https://github.com/halle-tae/FOCUSYouth/blob/main/FOCUSYouth%20Logo.png?raw=true" alt="logo">
-              <p>
-                FOCUS Youth
-              </p>
-              <ul>
-                <li><a href = "#">Home</a></li>
-                <li class="drop_down">
-                    <a class="active_site drop_down_btn" href="javascript:void(0)">About</a>
-                    <div class="drop_down_content">
-                        <a href="#">Meet the team</a>
-                        <a href="#">Join us</a>
-                    </div>
-                </li>
-                <li class="drop_down">
-                    <a class="drop_down_btn" href = "javascript:void(0)">Sponsor</a>
-                    <div class="drop_down_content">
-                        <a href="#">Our sponsors</a>
-                    </div>
-                </li>
-                <li class="drop_down">
-                    <a class="drop_down_btn" href = "javascript:void(0)">Impact</a>
-                    <div class="drop_down_content">
-                        <a href="#">Care packages</a>
-                        <a href="#">Hour power</a>
-                        <a href="#">Monthly themed posts</a>
-                        <a href="#">Webinar series</a>
-                        <a href="#">Stay at home activities</a>
-                    </div>
-                </li>
-                <li><a href = "#">Contact</a></li>
-              </ul>
-            </nav>  
-        </div>
+      <div class="nav_bar">
+        <nav>
+          <img src="../images/FOCUSYouth Logo.png" alt="logo">
+          <p>
+            FOCUS Youth
+          </p>
+          <ul>
+            <li><a class="active_site" href="index.html">Home</a></li>
+    
+            <li class="drop_down">
+              <a class="drop_down_btn" href="about.html">About</a>
+              <div class="drop_down_content">
+                <a href="meet_the_team.html">Meet the team</a>
+                <a href="join_us.html">Join us</a>
+              </div>
+            </li>
+    
+            <li class="drop_down">
+              <a class="drop_down_btn" href="sponsor.html">Sponsor</a>
+              <div class="drop_down_content">
+                <a href="our_sponsors.html">Our sponsors</a>
+              </div>
+            </li>
+    
+            <li class="drop_down">
+              <a class="drop_down_btn" href="impact.html">Impact</a>
+              <div class="drop_down_content">
+                <a href="care_packages.html">Care packages</a>
+                <a href="hour_power.html">Hour power</a>
+                <a href="monthly_themed_posts.html">Monthly themed posts</a>
+                <a href="webinar_series.html">Webinar series</a>
+                <a href="stay_at_home_activities.html">Stay at home activities</a>
+              </div>
+            </li>
+    
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </body>
 </html>
