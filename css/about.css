@@ -1,47 +1,87 @@
-body{
+  /*main body*/
+  body{
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
+  }
+  /*.nav_bar>nav {
+    display: flex;
+  }*/
+  .book{
+    margin-left: 20vw;
+    height: 13vw;
+    width: 13vw;
+    padding-right: 5%;
+  }
+  .lightbulb{
+    position: relative;
+    top: -1vw;
+    width: 12vw;
+    height: 12vw;
+    padding-right: 5vw;
+    padding-left: 5vw;
+  }
+  .handshake{
+    position: relative;
+    top: -1vw;
+    padding-left: 5.5vw;
+    width: 13vw;
+    height: 13vw;
+  }
+  .our_story_list{
+      margin-left: 19vw;
+  }
+  .our_story_list>li{
+    display: inline-block;
+    padding-right: 13vw;
+    position: relative;
+    top: -3vw;
+  }
+  /*general text*/
+  p{
+    font-size: 1.5vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    text-align: justify;
   }
   /*nav bar*/
   .nav_bar{
     z-index: 10;
     /*border: 2px solid #b3e5ff;*/
     background: #000000;
-    position: fixed;
-    width: 99.7%;
-    height: 55px;
-    left: 0px;
-    top: 0px;
+    position: absolute;
+    width: 100vw;
+    height: 2.5vw;
+    top: 0vw;
+    left: 0vw;
   }
+  /*FOCUS Youth in nav bar*/
   .nav_bar>nav>p{
     color: #FFFFFF;
     position: absolute;
-    font-size: 20px;
-    left:5%;
-    top:-5px;
+    font-size: 1vw;
+    left: 5vw;
+    top: -0.3vw;
     font-weight: bold;
   }
   .nav_bar>nav>ul{
-    position:absolute;
     list-style-type: none;
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 55px;
-    grid-gap: 40px;
-    right: 1%;
-    top:13px;
-    margin:0px;
-    width: 50%;
+    grid-template-rows: 2vw;
+    grid-gap: 0.3vw;
+    margin-left: 55vw;
+    margin-top: -2vw;
+    width: 40vw;
   }
   .nav_bar>nav>ul>li{
     display: inline;
+    padding-left: 0.5vw;
   }
   .nav_bar>nav>ul>li>a{
     text-decoration: none;
     text-align: center;
     color: #FFFFFF;
-    font-size: 20px;
-    padding-left: 0.5%;
+    font-size: 1vw;
   }
   .nav_block>nav>ul>li.dropdown {
     display: inline-block;
@@ -49,24 +89,24 @@ body{
   .drop_down_content {
     display: none;
     position: absolute;
-    top: 41px;
+    top: 1.8vw;
     background-color: #000000;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    min-width: 8.3vw;
+    box-shadow: 0vw 0.2vw 0.8vw 0vw rgba(0,0,0,0.2);
     z-index: 1;
   }
   .drop_down_content>a {
     color: #ffffff;
-    font-size: 18px;
-    padding: 12px 16px;
+    font-size: 1vw;
+    padding: 0.8vw 0.8vw;
     text-decoration: none;
     display: block;
     text-align: left;
   }
   .drop_down_content>a:hover {
-    border: 2px solid #b3e5ff;
+    border: 0.1vw solid #b3e5ff;
     font-weight: bold;
-    font-size: 19px;
+    font-size: 1.05vw;
   }
   .drop_down:hover .drop_down_content {
     display: block;
@@ -79,58 +119,75 @@ body{
 
   /*formatting nav bar logo*/
   .nav_bar>nav>img{
-    width: 40px;
-    height: 40px;
-    vertical-align: 1px;
-    padding-right: 10px;
-    margin-left: 1.8%;
-    margin-top: 5px;
+    width: 2vw;
+    height: 2vw;
+    vertical-align: 0.1vw;
+    padding-right: 0.1vw;
+    margin-left: 5vw;
+    margin-top: 0.2vw;
   }
 
   /*hover effect of nav bar elements*/
   .nav_bar>nav>ul>li:hover{
     font-weight: bold;
-    font-size: 20px;
-  }
-  /*backdrop fomatting*/
-  #backdrop{
-    margin: 0px;
-    left: 0px;
-    position: absolute;
-    padding: 0px;
-    top: 55px;
-    width: 100%;
-    height: 815px;
-    z-index: -1;
-    object-fit: cover;
-    object-position:0px 0px; 
+    font-size: 1.05vw;
   }
   /*main logo fomatting*/
   #mainlogo{
-    width: 178px;
-    height: 178px;
+    width: 8vw;
+    height: 8vw;
     margin: auto;
-    margin-top: 130px;
+    margin-top: 10vw;
     display: block;
+  }
+  /*main body formatting*/
+  main{
+	padding: 1% 0;
+	position: relative;
+	background: #f5f5f5;
+	box-shadow: 0px -10px 60px rgba(0,0,0,0.25);
+	height: 100%;
+  }
+
+  /*for zoom effect*/
+  .zoom{
+	overflow: hidden;
+	padding-bottom: 20vw;
+  }
+  .zoom img{
+    position: fixed;
+    top: -5vw;
+    left: 50vw;
+    max-width: 200vw;
+    width: 100vw;
+    transform: translateX(-50vw);
+    z-index: -1;
   }
   /*title*/
   h1{
-    margin-top: 300px;
+    margin-top: 20vw;
     font-style: normal;
     font-weight: bold;
-    font-size: 50px;
-    line-height: 59px;
+    font-size: 4vw;
+    line-height: 3vw;
     text-align: center;
     color: #FFFFFF;
   }
+  /*subtitle*/
+  h2{
+    font-weight: 1000;
+    font-size: 2.5vw;
+    color: #002B6A;
+  }
+  /*thick blue underlines*/
   hr{
     display: block;
-    height: 1px;
+    height: 0.7vw;
     border: 0;
-    border-top: 1px solid #000000;
-    margin-top: 2000px;
-    margin-left: 4%;
-    margin-right: 4%;
+    border-top: 0.7vw solid #B3E5FE;
+    margin-top: 1%;
+    margin-left: 3%;
+    margin-right: 90%;
     padding: 0;
    }
   
@@ -181,3 +238,4 @@ body{
     left: 20%;
   }
   
+ 
