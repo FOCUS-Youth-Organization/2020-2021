@@ -153,6 +153,9 @@ body{
 .profiles>div{
   text-align: center;
 }
+.profiles>div>h1{
+  font-size: 30px;
+}
 .photo-container{
   display: grid;
   grid-template-columns: repeat(12,1fr);
@@ -170,13 +173,13 @@ hr{
   border-top: 1px solid #000000;
   left: 4%;
   right: 4%;
-  top: 7500px;
+  top: 6950px;
   padding: 0;
  }
 
 .footer_content>div{
   position:absolute;
-  top:7550px;
+  top:7000px;
   
 }
 .footer_content>div>p{
