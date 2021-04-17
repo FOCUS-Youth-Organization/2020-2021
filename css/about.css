@@ -89,7 +89,6 @@
   .drop_down_content {
     display: none;
     position: absolute;
-    top: 1.8vw;
     background-color: #000000;
     min-width: 8.3vw;
     box-shadow: 0vw 0.2vw 0.8vw 0vw rgba(0,0,0,0.2);
@@ -101,7 +100,6 @@
     padding: 0.8vw 0.8vw;
     text-decoration: none;
     display: block;
-    text-align: left;
   }
   .drop_down_content>a:hover {
     border: 0.1vw solid #b3e5ff;
@@ -183,12 +181,12 @@
   hr{
     display: block;
     height: 0.7vw;
-    border: 0;
+    border: 0vw;
     border-top: 0.7vw solid #B3E5FE;
-    margin-top: 1%;
-    margin-left: 3%;
+    margin-top: 1vw;
+    margin-left: 3vw;
     margin-right: 90%;
-    padding: 0;
+    padding: 0vw;
    }
   
   .footer_content>div{
