@@ -7,6 +7,9 @@ nav{
 nav.navbar{
     flex-direction: unset;
 }
+.nav-item{
+    padding: 0px 38px 0px 1px;
+}
 nav span{
     color: #FFFFFF;
     text-decoration: none;
@@ -28,5 +31,8 @@ nav ul li a:hover{
     color: #FFFFFF;
 }
 .navbar-toggler-icon{
-    background-image: url("../images/FOCUSYouth\ Logo.png");
+    background-image: url("../images/menu\ logo.png");
+}
+.active{
+    color: #b3e5ff;
 }
