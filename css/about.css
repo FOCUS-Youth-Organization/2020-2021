@@ -3,38 +3,12 @@
     font-family: 'Montserrat', sans-serif;
     margin: 0vw;
   }
-  /*.nav_bar>nav {
-    display: flex;
-  }*/
-  .book{
-    margin-left: 20vw;
-    height: 13vw;
-    width: 13vw;
-    padding-right: 5%;
-  }
-  .lightbulb{
-    position: relative;
-    top: -1vw;
-    width: 12vw;
-    height: 12vw;
-    padding-right: 5vw;
-    padding-left: 5vw;
-  }
-  .handshake{
-    position: relative;
-    top: -1vw;
-    padding-left: 5.5vw;
-    width: 13vw;
-    height: 13vw;
-  }
   .our_story_list{
       margin-left: 19vw;
   }
   .our_story_list>li{
     display: inline-block;
-    padding-right: 13vw;
-    position: relative;
-    top: -3vw;
+    padding-right: 7vw;
   }
   /*general text*/
   p{
@@ -42,93 +16,6 @@
     margin-left: 3vw;
     margin-right: 3vw;
     text-align: justify;
-  }
-  /*nav bar*/
-  .nav_bar{
-    z-index: 10;
-    /*border: 2px solid #b3e5ff;*/
-    background: #000000;
-    position: fixed;
-    width: 100vw;
-    height: 2.5vw;
-    top: 0vw;
-    left: 0vw;
-  }
-  /*FOCUS Youth in nav bar*/
-  .nav_bar>nav>p{
-    color: #FFFFFF;
-    position: absolute;
-    font-size: 1vw;
-    left: 5vw;
-    top: -0.3vw;
-    font-weight: bold;
-  }
-  .nav_bar>nav>ul{
-    list-style-type: none;
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 2vw;
-    grid-gap: 0.3vw;
-    margin-left: 55vw;
-    margin-top: -2vw;
-    width: 40vw;
-  }
-  .nav_bar>nav>ul>li{
-    display: inline;
-    padding-left: 0.5vw;
-  }
-  .nav_bar>nav>ul>li>a{
-    text-decoration: none;
-    text-align: center;
-    color: #FFFFFF;
-    font-size: 1vw;
-  }
-  .nav_block>nav>ul>li.dropdown {
-    display: inline-block;
-  }
-  .drop_down_content {
-    display: none;
-    position: absolute;
-    background-color: #000000;
-    min-width: 8.3vw;
-    box-shadow: 0vw 0.2vw 0.8vw 0vw rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  .drop_down_content>a {
-    color: #ffffff;
-    font-size: 1vw;
-    padding: 0.8vw 0.8vw;
-    text-decoration: none;
-    display: block;
-  }
-  .drop_down_content>a:hover {
-    border: 0.1vw solid #b3e5ff;
-    font-weight: bold;
-    font-size: 1.05vw;
-  }
-  .drop_down:hover .drop_down_content {
-    display: block;
-  }
-
-  /*changes font color of the page user is currently on*/
-  .nav_bar>nav>ul>li>a.active_site{
-    color: #b3e5ff;
-  }
-
-  /*formatting nav bar logo*/
-  .nav_bar>nav>img{
-    width: 2vw;
-    height: 2vw;
-    vertical-align: 0.1vw;
-    padding-right: 0.1vw;
-    margin-left: 5vw;
-    margin-top: 0.2vw;
-  }
-
-  /*hover effect of nav bar elements*/
-  .nav_bar>nav>ul>li:hover{
-    font-weight: bold;
-    font-size: 1.05vw;
   }
   /*main logo fomatting*/
   #mainlogo{
@@ -146,11 +33,37 @@
 	box-shadow: 0px -10px 60px rgba(0,0,0,0.25);
 	height: 100%;
   }
-
+  .img-left{
+    margin: 0vw 0vw 0vw 16vw;
+    width: 10vw;
+    height: auto;
+  }
+  .img-center{
+    margin: 0vw 0vw 0vw 16vw;
+    width: 10vw;
+    height: auto;
+  }
+  .img-right{
+    margin: 0vw 0vw 0vw 16vw;
+    width: 10vw;
+    height: auto;
+  }
+  .txt-left{
+    display: inline-block;
+    margin: 0vw 0vw 0vw 15vw;
+  }
+  .txt-center{
+    display: inline-block;
+    margin: 0vw 0vw 0vw 14.5vw;
+  }
+  .txt-right{
+    display: inline-block;
+    margin: 0vw 0vw 0vw 14.5vw;
+  }
   /*for zoom effect*/
   .zoom{
 	overflow: hidden;
-	padding-bottom: 20vw;
+	padding-bottom: 12vw;
   }
   .zoom img{
     position: fixed;
@@ -164,15 +77,14 @@
   /*title*/
   h1{
     margin-top: 20vw;
-    font-style: normal;
     font-weight: bold;
     font-size: 4vw;
-    line-height: 3vw;
     text-align: center;
     color: #FFFFFF;
   }
   /*subtitle*/
   h2{
+    padding: 1vw;
     font-weight: 1000;
     font-size: 2.5vw;
     color: #002B6A;
