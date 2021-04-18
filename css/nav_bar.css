@@ -1,0 +1,32 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    background: #000000;
+}
+nav.navbar{
+    flex-direction: unset;
+}
+nav span{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    box-shadow: 0 0 10px #b3e5ff, 0 0 10px #b3e5ff;
+    border-radius: 100px;
+    color: #b3e5ff;
+}
+.dropdown-menu{
+    background: #000000;
+}
+.nav-link{
+    color: #FFFFFF;
+}
+.nav-item.dropdown .dropdown-item{
+    margin: 1px 0px 4px;
+    background: #000000;
+    color: #FFFFFF;
+}
+.navbar-toggler-icon{
+    background-image: url("../images/FOCUSYouth\ Logo.png");
+}
