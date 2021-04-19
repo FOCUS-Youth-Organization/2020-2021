@@ -10,6 +10,9 @@
     display: inline-block;
     padding-right: 7vw;
   }
+  .page-name{
+    margin-top: 15vw;
+  }
   /*general text*/
   p{
     font-size: 1.5vw;
@@ -27,11 +30,11 @@
   }
   /*main body formatting*/
   main{
-	padding: 1% 0;
-	position: relative;
-	background: #f5f5f5;
-	box-shadow: 0px -10px 60px rgba(0,0,0,0.25);
-	height: 100%;
+    padding: 1% 0;
+    position: relative;
+    background: #f5f5f5;
+    box-shadow: 0px -10px 60px rgba(0,0,0,0.25);
+    height: 100%;
   }
   .img-left{
     margin: 0vw 0vw 0vw 16vw;
@@ -76,7 +79,6 @@
   }
   /*title*/
   h1{
-    margin-top: 20vw;
     font-weight: bold;
     font-size: 4vw;
     text-align: center;
@@ -101,51 +103,78 @@
     padding: 0vw;
    }
   
-  .footer_content>div{
-    position:absolute;
-    top:2850px;
-  }
-  .footer_content>div>p{
-    position:absolute;
-    font-weight: 900;
-    text-align:center;
-    font-size: 20px;
-  }
-  .footer_content>div>ul{
-    position:absolute;
-    top: 60px;
-  }
-  .footer_content>div>ul>li{
-    padding-bottom: 8px;
-  }
-  #about_footer{
-    width:200px;
-    left: 5%;
-    
-  }
-  #about_footer>p{
-    left: 20%;
-  }
-  #s_footer{
-    width:200px;
-    left: 25%;
-  }
-  #s_footer>p{
-    left: 20%;
-  }
-  #impact_footer{
-    width:200px;
-    left: 45%;
-  }
-  #impact_footer>p{
-    left: 20%;
-  }
-  #soc_footer{
-    width:200px;
-    left: 65%;
-  }
-  #soc_footer>p{
-    left: 20%;
-  }
-  
- 
+  .time-line-background {
+    border-radius: 50px;
+    box-shadow: 50px 20px 20px 50px rgba(0, 0, 0, 0.20);
+    background: linear-gradient(to bottom, #000000, #FFFFFF, #B3E5FE);
+    background-size: 100%;
+    background-repeat: no-repeat;
+ }
+
+  .container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 26px 0 rgba(0, 0, 0, 0.20);
+ }
+ .integrity{
+    display: inline-block; 
+    margin-left: 10vw;
+ }
+ .respect{
+  display: inline-block; 
+  margin-left: 13vw;
+}
+.compassion{
+  display: inline-block; 
+  margin-left: 13vw;
+}
+.collaboration{
+  display: inline-block; 
+  margin-left: 20vw;
+}
+.equality{
+  display: inline-block; 
+  margin-left: 13vw;
+}
+.initiative{
+  display: inline-block; 
+  margin-left: 13vw;
+}
+.integrity{
+  display: inline-block; 
+  margin-left: 13vw;
+}
+footer {
+  height: 300px;
+  background-color: #B3E5FE;
+  position: relative;
+}
+footer .footer__inner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 40px 60px;
+  width: 100%;
+}
+footer .footer__inner * {
+  color: #fff;
+}
+footer .item {
+  font-size: 40px;
+  margin-bottom: 80px;
+  transform: translateY(50px);
+  opacity: 0;
+  transition: transform, opacity;
+  transition-duration: 0.8s;
+  transition-timing-function: ease;
+}
+footer .logo.show {
+  transform: translateY(0);
+  opacity: 1;
+}
+footer nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
