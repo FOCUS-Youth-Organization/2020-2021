@@ -103,7 +103,7 @@
     padding: 0vw;
    }
   
-  .time-line-background .container {
+  .time-line-background {
     border-radius: 50px;
     box-shadow: 50px 20px 20px 50px rgba(0, 0, 0, 0.20);
     background: linear-gradient(to bottom, #00ccff, #FFFFFF, #B3E5FE);
