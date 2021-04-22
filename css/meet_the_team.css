@@ -8,7 +8,7 @@ body{
   /*border: 2px solid #b3e5ff;*/
   background: #000000;
   position: fixed;
-  width: 100%;
+  width: 100vw;
   height: 55px;
   left: 0px;
   top: 0px;
