@@ -35,9 +35,6 @@ nav ul li a:hover{
     background: #000000;
     color: #FFFFFF;
 }
-.dropdown-item:hover{
-    color: #b3e5ff;
-}
 .navbar-toggler-icon{
     background-image: url("../images/menu\ logo.png");
     font-size: 30px;
@@ -45,14 +42,4 @@ nav ul li a:hover{
 .active{
     color: #b3e5ff;
 }
-@media all and (min-width: 992px) {
-	.navbar .nav-item .dropdown-menu{
-        display: none; 
-    }
-	.navbar .nav-item:hover .dropdown-menu{
-        display: block;
-    }
-	.navbar .nav-item .dropdown-menu{ 
-        margin-top: 0; 
-    }
-}
+
