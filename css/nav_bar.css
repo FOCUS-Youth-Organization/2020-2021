@@ -42,7 +42,9 @@ nav ul li a:hover{
 .active{
     color: #b3e5ff;
 }
-
+.dropdown-toggle:after{
+    display: none;
+}
 @media all and (min-width: 992px) {
 	.navbar .nav-item .dropdown-menu{
         display: none; 
