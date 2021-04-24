@@ -23,8 +23,10 @@ nav ul li a:hover{
 .dropdown-menu{
     background: #000000;
     border-radius: 20px;
+    margin: 2px;
 }
 .nav-link{
+    margin: 4px 0px 4px 0px;
     color: #FFFFFF;
 }
 .nav-item.dropdown .dropdown-item{
@@ -42,4 +44,15 @@ nav ul li a:hover{
 }
 .active{
     color: #b3e5ff;
+}
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{
+        display: none; 
+    }
+	.navbar .nav-item:hover .dropdown-menu{
+        display: block;
+    }
+	.navbar .nav-item .dropdown-menu{ 
+        margin-top: 0; 
+    }
 }
