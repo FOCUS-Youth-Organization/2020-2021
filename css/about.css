@@ -39,6 +39,7 @@
     background: #f5f5f5;
     box-shadow: 0px -10px 60px rgba(0,0,0,0.25);
     width: 100vw;
+    z-index: 2;
   }
   .img-left{
     margin: 0vw 0vw 0vw 16vw;
@@ -147,4 +148,44 @@
 .integrity{
   display: inline-block; 
   margin-left: 13vw;
+}
+footer{
+  background: #000000;
+  min-height: 30vw;
+  z-index: 1;
+}
+.footer_content{
+  position: fixed;
+  bottom: 7vw;
+  display: flex;
+  flex-direction: row;
+}
+.footer-item{
+  font-size: 3vw;
+  color: #B3E5FE;
+  padding: 0vw 5vw 0vw 5vw;
+}
+.footer-item p{
+  font-size: 2vw;
+}
+.footer-list{
+  font-size: 1.4vw;
+  padding: 0vw 2vw 0vw 3vw;
+}
+.footer-line{
+  display: block;
+  height: 0.7vw;
+  border: 0vw;
+  border-top: 0.2vw solid #B3E5FE;
+  margin-top: 1vw;
+  margin-left: 1vw;
+  margin-right: 3vw;
+  padding: 0vw;
+}
+.footer-legal{
+  position: fixed;
+  bottom: 0.5vw;
+  display: block;
+  color: #B3E5FE;
+  font-size: 0.7vw;
 }
