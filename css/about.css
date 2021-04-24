@@ -1,7 +1,9 @@
+  html, body{
+    overflow-x: hidden;
+  }
   /*main body*/
   body{
     font-family: 'Montserrat', sans-serif;
-    margin: 0vw;
   }
   .our_story_list{
       margin-left: 19vw;
@@ -68,7 +70,7 @@
   /*for zoom effect*/
   .zoom{
 	  overflow: hidden;
-	  padding-bottom: 46vw;
+	  padding-bottom: 47vw;
   }
   .zoom img{
     position: fixed;
