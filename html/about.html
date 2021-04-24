@@ -70,7 +70,7 @@
           </div>
         </nav>
   
-        <img id="mainlogo" src="../images/FOCUSYouth Logo.png" alt="main logo">
+        <img class="mainlogo" src="../images/FOCUSYouth Logo.png" alt="main logo">
   
         <h1 class="page-name" style="position: fixed; margin-left: 44vw; margin-top: 34vw;">About</h1>
   
@@ -247,6 +247,7 @@
               <a href="https://www.instagram.com/focusyouthorg/?hl=en" target="empty"><i class="fab fa-instagram-square"></i></a>
               <a href="https://www.facebook.com/FOCUSYouth.org/" target="empty"><i class="fab fa-facebook-square"></i></a>
               <a href="https://www.linkedin.com/company/focus-youth/about/" target="empty"><i class="fab fa-linkedin"></i></a>
+              
               <!-- <a href="https://twitter.com/FocusYouthOrg" target="empty"><i class="fab fa-twitter-square"></i></a>
               <a href="https://www.tiktok.com/@focusyouthorg?lang=en" target="empty"><i class="fab fa-tiktok"></i></a> -->
             </ul>
@@ -474,6 +475,20 @@
             $(logoElement).removeClass('show');
           
         }
+      });
+
+      const checkpoint = 700;
+      window.addEventListener("scroll", () => {
+        const currentScroll = window.pageYOffset;
+        if (currentScroll <= checkpoint) {
+          opacity = 1;
+        } else {
+          opacity = 0;
+        }
+        document.querySelector(".page-name").style.opacity = opacity;
+        document.querySelector(".mainlogo").style.opacity = opacity;
+        document.querySelector(".footer_content").style.opacity = 1 - opacity;
+        document.querySelector(".footer-legal").style.opacity = 1 - opacity;
       });
     </script>
     <script src="../JS/bootstrap.js"></script>
