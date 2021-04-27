@@ -16,8 +16,10 @@ nav span{
     text-decoration: none;
 }
 nav ul li a:hover{
-    box-shadow: 0 0 10px #b3e5ff, 0 0 10px #b3e5ff;
-    border-radius: 100px;
+    /* box-shadow: 0 0 10px #b3e5ff, 0 0 10px #b3e5ff;
+    border-radius: 100px; */
+    padding-bottom: 2px;
+    border-bottom: 1px solid #b3e5ff;
     color: #b3e5ff;
 }
 .dropdown-menu{
