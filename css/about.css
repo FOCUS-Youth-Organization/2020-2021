@@ -166,6 +166,7 @@ footer{
   z-index: 0;
 }
 .footer-item{
+  text-decoration: none;
   font-size: 3vw;
   color: #B3E5FE;
   padding: 0vw 5vw 0vw 5vw;
@@ -176,6 +177,9 @@ footer{
 .footer-list{
   font-size: 1.4vw;
   padding: 0vw 2vw 0vw 3vw;
+}
+.footer-list a{
+  color: #B3E5FE;
 }
 .footer-line{
   display: block;
