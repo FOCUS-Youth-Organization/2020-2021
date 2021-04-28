@@ -89,7 +89,7 @@
             <div class="page-portion">
                 <div class="care-package-contents">
                     <h2>Care Package Contents</h2>
-                    <span>
+                    <span class="content-text">
                         Each of our care packages are well thought through and contain vital supplies for the homeless to 
                         fight the bitter winter and COVID-19. 
                     </span>
@@ -104,10 +104,79 @@
                         <li>Feminine products</li>
                     </ul>
                 </div>
+                <img class="care-packages-content-img" src="../images/care-packages-content.png" alt="care packages content">
+            </div>
+            <div class="page-portion">
+                
             </div>
         </main>
+        <footer>
+            <hr class="footer-line">
+            <div class="footer_content">
+              <div class="footer-item">
+                <p>
+                  About
+                </p>
+                <ul class="footer-list" style="list-style-type: none;">
+                  <li>About Us</li>
+                  <li>Mission</li>
+                  <li>Vision</li>
+                  <li>Meet the Team</li>
+                  <li>Join Us</li>
+                  <li>Contact Us</li>
+                </ul>
+              </div>
+              <div class="footer-item">
+                <p>
+                  Sponsor
+                </p>
+                <ul class="footer-list" style="list-style-type: none;">
+                  <li>Become a sponsor</li>
+                  <li>Our Sponsors</li>
+                </ul>
+              </div>
+              <div class="footer-item">
+                <p>
+                  Impact
+                </p>
+                <ul class="footer-list" style="list-style-type: none;">
+                  <li>Events</li>
+                  <li>Initiatives</li>
+                  <li>Upcoming</li>
+                </ul>
+              </div>
+              <div class="footer-item">
+                <p>
+                  Social
+                </p>
+                <ul class="footer-list" style="list-style-type: none;">
+                  <a href="https://www.instagram.com/focusyouthorg/?hl=en" target="empty"><i class="fab fa-instagram-square"></i></a>
+                  <a href="https://www.facebook.com/FOCUSYouth.org/" target="empty"><i class="fab fa-facebook-square"></i></a>
+                  <a href="https://www.linkedin.com/company/focus-youth/about/" target="empty"><i class="fab fa-linkedin"></i></a>
+                  
+                  <!-- <a href="https://twitter.com/FocusYouthOrg" target="empty"><i class="fab fa-twitter-square"></i></a>
+                  <a href="https://www.tiktok.com/@focusyouthorg?lang=en" target="empty"><i class="fab fa-tiktok"></i></a> -->
+                </ul>
+              </div>
+            </div>
+            <p class="footer-legal">@2021 by FOCUS Youth Organization - Legal</p>
+        </footer>
     </body>
     <script>
         scrollZoom();
+
+        const checkpoint = 700;
+        window.addEventListener("scroll", () => {
+            const currentScroll = window.pageYOffset;
+            if (currentScroll <= checkpoint) {
+            opacity = 1;
+            } else {
+            opacity = 0;
+            }
+            document.querySelector(".page-name").style.opacity = opacity;
+            document.querySelector(".mainlogo").style.opacity = opacity;
+            document.querySelector(".footer_content").style.opacity = 1 - opacity;
+            document.querySelector(".footer-legal").style.opacity = 1 - opacity;
+        });
     </script>
 </html>
