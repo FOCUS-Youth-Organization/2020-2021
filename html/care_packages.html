@@ -1,0 +1,113 @@
+<html>
+    <head>        
+        <script src="https://kit.fontawesome.com/83edd56ebe.js" crossorigin="anonymous"></script>
+        <link rel="favicon icon" type="image/png" href="../images/FOCUSYouth Logo.png" />
+        <!--- css --->
+        <link rel="stylesheet" href="../css/bootstrap.css">
+        <link rel="stylesheet" href="../css/timeline.css">
+        <link rel="stylesheet" href="../css/nav_bar.css">
+        <link rel="stylesheet" href="../css/footer.css">
+        <link rel="stylesheet" href="../css/care_packages.css">
+        <!--- javascript --->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.js"></script>
+        <script src="../JS/scroll-zoom.js"></script>
+        <!--- font --->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar fixed-top navbar-expand-lg">
+            <img src="../images/FOCUSYouth Logo.png" width="50px" height="50px" alt="navbar icon">
+            <span class="navbar-brand">FOCUS Youth</span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            About
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="about.html">About</a>
+                            <a class="dropdown-item" href="meet_the_team.html">Meet the team</a>
+                            <a class="dropdown-item" href="join_us.html">Join us</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Sponsor
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="sponsor.html">Sponsor</a>
+                        <a class="dropdown-item" href="our_sponsors.html">Our sponsors</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Impact
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="impact.html">Impact</a>
+                        <a class="dropdown-item" href="care_packages.html">Care packages</a>
+                        <a class="dropdown-item" href="hour_power.html">Hour power</a>
+                        <a class="dropdown-item" href="monthly_themed_posts.html">Monthly themed posts</a>
+                        <a class="dropdown-item" href="webinar_series.html">Webinar series</a>
+                        <a class="dropdown-item" href="stay_at_home_activities.html">Stay at home activities</a>
+                    </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            </nav>
+            <img class="mainlogo" src="../images/FOCUSYouth Logo.png" alt="main logo">
+            <h1 class="page-name" style="position: fixed; margin-left: 35vw; margin-top: 34vw;">Care Packages</h1>
+            <div class="zoom">
+            <img src="../images/care-packages-backdrop.png" alt="care packages backdrop">
+            </div>
+        </header>
+        <main>
+            <div class="page-portion">
+                <div class="introduction-bubble">
+                    <blockquote class="introduction-text">
+                        <span>
+                            Introducing FOCUS Youth’s newest initiative: Care Packages! In recognizing the challenges 
+                            that the homeless face, especially during the pandemic, we will be delivering care packages 
+                            containing survival essentials as well as COVID-19 supplies. 
+                        </span>
+                    </blockquote>
+                </div>
+                <img class="care-package-icon" src="../images/care-package-icon.png" alt="care package icon">
+            </div>
+            <div class="page-portion">
+                <div class="care-package-contents">
+                    <h2>Care Package Contents</h2>
+                    <span>
+                        Each of our care packages are well thought through and contain vital supplies for the homeless to 
+                        fight the bitter winter and COVID-19. 
+                    </span>
+                    <br>
+                    <span class="content-list-title">Contents of our care packages include...</span>
+                    <ul class="content-list">
+                        <li>Blankets</li>
+                        <li>Hand sanitizers</li>
+                        <li>Face masks</li>
+                        <li>Gloves</li>
+                        <li>Socks</li>
+                        <li>Feminine products</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </body>
+    <script>
+        scrollZoom();
+    </script>
+</html>
