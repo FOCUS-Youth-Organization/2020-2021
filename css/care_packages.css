@@ -217,16 +217,72 @@
       margin-left: 3vw;
       text-align: left;
   }
-  .assembly-right{
-      display: inline-block;
-  }
-  .assembly-text{
+  .volunteer-bubble{
+    display: inline-block;
+    height: 23vw;
+    width: 40vw;
+    margin-left: 4vw;
+    margin-top: 10vw;
     background: #B3E5FE;
     border-radius: 10px;
+    text-align: center;
+    box-shadow: 14px 2px 28px 3px rgb(0 0 0 / 20%);
   }
-  .assembly-text span{
-
+  .volunteer-bubble-text{
+    display: flex;
+    font-size: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
   }
-  .assembly-contents{
-
+  .volunteer-update{
+    display: flex;
+    font-size: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-weight: bold;
+  }
+  .care-package-volunteer{
+    display: inline-block;
+    height: 40vw;
+    width: 30vw;
+    margin-left: 14vw;
+    margin-top: -14vw;
+  }
+  .volunteer-help-title{
+    margin-left: 4vw;
+    font-size: 2vw;
+    font-weight: bold;
+  }
+  .volunteer-help-text{
+    margin-top: 2vw;
+    margin-left: 3vw;
+    margin-right: 2vw;
+    display: flex;
+    font-size: 1vw;
+  }
+  .card-requirements{
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin-top: 2vw;
+    margin-left: 3vw;
+  }
+  .card-requirements-list{
+    margin-top: 2vw;
+    margin-left: 3vw;
+    font-size: 1vw;
+  }
+  .card-requirements-list li{
+    margin-left: 2vw;
+  }
+  .volunteer-hours-title{
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    margin-left: 3vw;
+    font-size: 1.5vw;
+    font-weight: bold;
+  }
+  .volunteer-hours-list{
+    margin-left: 5vw;
+    font-size: 1vw;
+    list-style-type: decimal;
   }
