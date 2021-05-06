@@ -286,3 +286,28 @@
     font-size: 1vw;
     list-style-type: decimal;
   }
+  .care-package-assembly-bubble{
+    background: #B3E5FE;
+    border-radius: 10px;
+    margin-left: 6vw;
+    height: 10vw;
+    width: 50vw;
+    font-size: 1.5vw;
+  }
+  .assembly-text{
+    display: flex;
+    padding-top: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-top: 3vw;
+  }
+  .care-package-video-reel-img{
+    width: 35vw;
+    height: 58vw;
+  }
+  .assembly-contents{
+    margin-top: 9vw;
+    height: 35vw;
+    width: 50vw;
+    margin-left: 6vw;
+  }
