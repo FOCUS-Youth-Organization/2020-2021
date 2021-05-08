@@ -219,7 +219,6 @@
   }
   .volunteer-bubble{
     display: inline-block;
-    height: 23vw;
     width: 40vw;
     margin-left: 4vw;
     margin-top: 10vw;
@@ -239,6 +238,7 @@
     font-size: 1vw;
     padding-left: 1vw;
     padding-right: 1vw;
+    padding-bottom: 2vw;
     font-weight: bold;
   }
   .care-package-volunteer{
@@ -310,4 +310,80 @@
     height: 35vw;
     width: 50vw;
     margin-left: 6vw;
+  }
+  .delivery-bubble{
+    background: #B3E5FE;
+    border-radius: 10px;
+    font-size: 1.5vw;
+    height: auto;
+    width: 50vw;
+    margin-left: 5vw;
+    box-shadow: 14px 2px 28px 3px rgb(0 0 0 / 20%);
+  }
+  .delivery-text{
+    padding: 2vw;
+    display: flex;
+  }
+  .colorful-packages{
+    width: 50vw;
+    margin-left: 5vw;
+  }
+  .care-package-recap{
+    margin-left: 8vw;
+    height: 50vw;
+  }
+  .package-delivery-img1{
+    margin-left: 5vw;
+    height: 35vw;
+    margin-top: 2vw;
+  }
+  .package-delivery-img2{
+    margin-left: -14vw;
+    height: 35vw;
+    margin-top: 2vw;
+  }
+  .resource-bubble{
+    background: #B3E5FE;
+    border-radius: 0 10px 10px 0;
+    width: 50vw;
+    margin-top: 2vw;
+  }
+  .resource-text{
+    font-size: 1.5vw;
+    display: flex;
+    padding: 2vw;
+  }
+  h2{
+    margin-left: 3vw;
+    font-size: 2vw;
+    font-weight: bold;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+  }
+  .article-list{
+    font-size: 1vw;
+    list-style-type: none;
+    margin-left: 1vw;
+    color: #000000;
+    text-shadow: 0.01vw 0.1vw #B3E5FE;
+  }
+  .article-list li a{
+    color: #000000;
+    text-shadow: 0.01vw 0.1vw #B3E5FE;
+  }
+  .donate-list{
+    font-size: 1vw;
+    margin-left: 1vw;
+    list-style-type: none;
+  }
+  .donate-list span{
+    display: block;
+  }
+  .donate-list li a{
+    display: block;
+    color: #000000;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    margin-left: 2vw;
+    text-shadow: 0.01vw 0.1vw #B3E5FE; 
   }
