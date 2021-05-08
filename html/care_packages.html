@@ -1,36 +1,40 @@
 <html>
-    <head>        
-        <script src="https://kit.fontawesome.com/83edd56ebe.js" crossorigin="anonymous"></script>
-        <link rel="favicon icon" type="image/png" href="../images/FOCUSYouth Logo.png" />
-        <!--- css --->
-        <link rel="stylesheet" href="../css/bootstrap.css">
-        <link rel="stylesheet" href="../css/timeline.css">
-        <link rel="stylesheet" href="../css/nav_bar.css">
-        <link rel="stylesheet" href="../css/footer.css">
-        <link rel="stylesheet" href="../css/care_packages.css">
-        <!--- javascript --->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.js"></script>
-        <script src="../JS/scroll-zoom.js"></script>
-        <!--- font --->
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <nav class="navbar fixed-top navbar-expand-lg">
+
+<head>
+    <script src="https://kit.fontawesome.com/83edd56ebe.js" crossorigin="anonymous"></script>
+    <link rel="favicon icon" type="image/png" href="../images/FOCUSYouth Logo.png" />
+    <!--- css --->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/timeline.css">
+    <link rel="stylesheet" href="../css/nav_bar.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/care_packages.css">
+    <!--- javascript --->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.js"></script>
+    <script src="../JS/scroll-zoom.js"></script>
+    <!--- font --->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg">
             <img src="../images/FOCUSYouth Logo.png" width="50px" height="50px" alt="navbar icon">
             <span class="navbar-brand">FOCUS Youth</span>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                    <a class="nav-link" href="../index.html">Home</a>
+                        <a class="nav-link" href="../index.html">Home</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             About
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -40,292 +44,334 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Sponsor
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="sponsor.html">Sponsor</a>
-                        <a class="dropdown-item" href="our_sponsors.html">Our sponsors</a>
+                            <a class="dropdown-item" href="sponsor.html">Sponsor</a>
+                            <a class="dropdown-item" href="our_sponsors.html">Our sponsors</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Impact
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="impact.html">Impact</a>
-                        <a class="dropdown-item" href="care_packages.html">Care packages</a>
-                        <a class="dropdown-item" href="hour_power.html">Hour power</a>
-                        <a class="dropdown-item" href="monthly_themed_posts.html">Monthly themed posts</a>
-                        <a class="dropdown-item" href="webinar_series.html">Webinar series</a>
-                        <a class="dropdown-item" href="stay_at_home_activities.html">Stay at home activities</a>
-                    </div>
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Impact
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="impact.html">Impact</a>
+                            <a class="dropdown-item" href="care_packages.html">Care packages</a>
+                            <a class="dropdown-item" href="hour_power.html">Hour power</a>
+                            <a class="dropdown-item" href="monthly_themed_posts.html">Monthly themed posts</a>
+                            <a class="dropdown-item" href="webinar_series.html">Webinar series</a>
+                            <a class="dropdown-item" href="stay_at_home_activities.html">Stay at home activities</a>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
-            </nav>
-            <img class="mainlogo" src="../images/FOCUSYouth Logo.png" alt="main logo">
-            <h1 class="page-name" style="position: fixed; margin-left: 35vw; margin-top: 34vw;">Care Packages</h1>
-            <div class="zoom">
+        </nav>
+        <img class="mainlogo" src="../images/FOCUSYouth Logo.png" alt="main logo">
+        <h1 class="page-name" style="position: fixed; margin-left: 35vw; margin-top: 34vw;">Care Packages</h1>
+        <div class="zoom">
             <img src="../images/care-packages-backdrop.png" alt="care packages backdrop">
-            </div>
-        </header>
-        <main>
-            <div class="page-portion">
-                <div class="introduction-bubble">
-                    <blockquote class="introduction-text">
-                        <span>
-                            Introducing FOCUS Youth’s newest initiative: Care Packages! In recognizing the challenges 
-                            that the homeless face, especially during the pandemic, we will be delivering care packages 
-                            containing survival essentials as well as COVID-19 supplies. 
-                        </span>
-                    </blockquote>
-                </div>
-                <img class="care-package-icon" src="../images/care-package-icon.png" alt="care package icon" href="https://www.instagram.com/p/CKcURgDgNeC">
-            </div>
-            <div class="page-portion">
-                <div class="care-package-contents">
-                    <h2>Care Package Contents</h2>
-                    <span class="content-text">
-                        Each of our care packages are well thought through and contain vital supplies for the homeless to 
-                        fight the bitter winter and COVID-19. 
-                    </span>
-                    <br>
-                    <span class="content-list-title">Contents of our care packages include...</span>
-                    <ul class="content-list">
-                        <li>Blankets</li>
-                        <li>Hand sanitizers</li>
-                        <li>Face masks</li>
-                        <li>Gloves</li>
-                        <li>Socks</li>
-                        <li>Feminine products</li>
-                    </ul>
-                </div>
-                <img class="care-packages-content-img" src="../images/care-packages-content.png" alt="care packages content">
-            </div>
-            <div class="page-portion">
-                <img class="government-of-canada-img" src="../images/government-of-canada-img.png" alt="government of canada img">
-                <div class="sponsor">
-                    <h2>Sponsor</h2>
+        </div>
+    </header>
+    <main>
+        <div class="page-portion">
+            <div class="introduction-bubble">
+                <blockquote class="introduction-text">
                     <span>
-                        This project is funded by the Rising Youth Grant! Please check out their website for more 
-                        information about their community!
+                        Introducing FOCUS Youth’s newest initiative: Care Packages! In recognizing the challenges
+                        that the homeless face, especially during the pandemic, we will be delivering care packages
+                        containing survival essentials as well as COVID-19 supplies.
                     </span>
-                    <br>
+                </blockquote>
+            </div> <a href="https://www.instagram.com/p/CKcURgDgNeC" target="_blank"> <img class="care-package-icon"
+                    src="../images/care-package-icon.png" alt="care package icon">
+            </a>
+        </div>
+        <div class="page-portion">
+            <div class="care-package-contents">
+                <h2>Care Package Contents</h2>
+                <span class="content-text">
+                    Each of our care packages are well thought through and contain vital supplies for the homeless to
+                    fight the bitter winter and COVID-19.
+                </span>
+                <br>
+                <span class="content-list-title">Contents of our care packages include...</span>
+                <ul class="content-list">
+                    <li>Blankets</li>
+                    <li>Hand sanitizers</li>
+                    <li>Face masks</li>
+                    <li>Gloves</li>
+                    <li>Socks</li>
+                    <li>Feminine products</li>
+                </ul>
+            </div>
+            <img class="care-packages-content-img" src="../images/care-packages-content.png"
+                alt="care packages content">
+        </div>
+        <div class="page-portion">
+            <img class="government-of-canada-img" src="../images/government-of-canada-img.png"
+                alt="government of canada img">
+            <div class="sponsor">
+                <h2>Sponsor</h2>
+                <span>
+                    This project is funded by the Rising Youth Grant! Please check out their website for more
+                    information about their community!
+                </span>
+                <br>
+                <span>
+                    We thank Taking it Global, Rising Youth, the Canada Service Corps, and the government of
+                    Canada for funding this project.
+                </span>
+            </div>
+        </div>
+        <div class="page-portion">
+            <img class="taking-it-global" src="../images/taking-it-global.png" alt="taking it global img">
+            <img class="rising-youth" src="../images/rising-youth.png" alt="rising youth img">
+            <img class="canada-service" src="../images/canada-service.png" alt="canada service img">
+            <hr>
+        </div>
+        <div class="page-portion" style="margin-top: 2vw;">
+            <div class="volunteer-bubble">
+                <h2 style="font-weight: bold; font-size: 2vw; padding-top: 1vw;">Volunteer Opportunity!</h2>
+                <br>
+                <span class="volunteer-bubble-text">
+                    We are currently looking for cards to put inside our care packages! The requirements are create
+                    a digital single-sided card (preferably Canva) and write any kind message of your choice for the
+                    homeless. Please do not include any personal information. Please email us your card, along with your
+                    full name and the time it took to create the card. For more details, send us a dm or an email to
+                    info@focusyouth.ca! Check out below for more information.
+                </span>
+                <br>
+                <span class="volunteer-update">
+                    Update: We are no longer accepting card submissions. Thank you to everyone who submitted a card.
+                </span>
+            </div>
+            <img class="care-package-volunteer" src="../images/care-package-volunteer.png"
+                alt="care package volunteer img">
+            <div>
+                <h1 class="volunteer-help-title">Want to help?</h1>
+                <span class="volunteer-help-text">
+                    Thank you for your interest in helping out with our Care Packages initiative! We look forward
+                    to seeing the amazing cards you create! Below you will find everything you need to know regarding
+                    how
+                    to submit a card. If you have any questions, feel free to contact us on Instagram (@focusyouthorg)
+                    or
+                    email us at info@focusyouth.ca. Cards are due Friday, February 19th, at 11:59pm.
+                </span>
+                <h2 class="card-requirements">Card Requirements</h2>
+                <ul class="card-requirements-list">
                     <span>
-                        We thank Taking it Global, Rising Youth, the Canada Service Corps, and the government of 
-                        Canada for funding this project. 
+                        Include a nice message to a homeless person. Graphics and other designs are permitted.
                     </span>
-                </div>
-            </div>
-            <div class="page-portion">
-                <img class="taking-it-global" src="../images/taking-it-global.png" alt="taking it global img">
-                <img class="rising-youth" src="../images/rising-youth.png" alt="rising youth img">
-                <img class="canada-service" src="../images/canada-service.png" alt="canada service img">
-                <hr>
-            </div>
-            <div class="page-portion" style="margin-top: 2vw;">
-                <div class="volunteer-bubble">
-                    <h2 style="font-weight: bold; font-size: 2vw; padding-top: 1vw;">Volunteer Opportunity!</h2>
-                    <br>
-                    <span class="volunteer-bubble-text">
-                        We are currently looking for cards to put inside our care packages! The requirements are create 
-                        a digital single-sided card (preferably Canva) and write any kind message of your choice for the 
-                        homeless. Please do not include any personal information. Please email us your card, along with your 
-                        full name and the time it took to create the card. For more details, send us a dm or an email to 
-                        info@focusyouth.ca! Check out below for more information.
-                    </span>
-                    <br>
-                    <span class="volunteer-update">
-                        Update: We are no longer accepting card submissions. Thank you to everyone who submitted a card.
-                    </span>
-                </div>
-                <img class="care-package-volunteer" src="../images/care-package-volunteer.png" alt="care package volunteer img">
-                <div>
-                    <h1 class="volunteer-help-title">Want to help?</h1>
-                    <span class="volunteer-help-text">
-                        Thank you for your interest in helping out with our Care Packages initiative! We look forward 
-                        to seeing the amazing cards you create! Below you will find everything you need to know regarding how 
-                        to submit a card. If you have any questions, feel free to contact us on Instagram (@focusyouthorg) or 
-                        email us at info@focusyouth.ca. Cards are due Friday, February 19th, at 11:59pm.
-                    </span>
-                    <h2 class="card-requirements">Card Requirements</h2>
-                    <ul class="card-requirements-list">
-                        <span>
-                            Include a nice message to a homeless person. Graphics and other designs are permitted.
-                        </span>
-                        <li><span>Cards can be in color or black and white.</span></li>
-                        <li><span>Cards must be a digital format (PDF or Canva link).</span></li>
-                        <li><span>Maximum card size of 8.5 by 11.5 inches (letter size).</span></li>
-                        <li><span>Cards must be single-sided. However, they can be folded in half to contain the message on the inside.</span></li>
-                        <li><span>Do not include any personal information (name, address, etc).</span></li>
-                    </ul>
-                    <h2 class="volunteer-hours-title">Obtaining Volunteer Hours</h2>
-                    <ul class="volunteer-hours-list">
-                        <li><span>
-                            There is a maximum of 5 cards per person, at a maximum of 3 volunteer hours per card. However, hours are given 
+                    <li><span>Cards can be in color or black and white.</span></li>
+                    <li><span>Cards must be a digital format (PDF or Canva link).</span></li>
+                    <li><span>Maximum card size of 8.5 by 11.5 inches (letter size).</span></li>
+                    <li><span>Cards must be single-sided. However, they can be folded in half to contain the message on
+                            the inside.</span></li>
+                    <li><span>Do not include any personal information (name, address, etc).</span></li>
+                </ul>
+                <h2 class="volunteer-hours-title">Obtaining Volunteer Hours</h2>
+                <ul class="volunteer-hours-list">
+                    <li><span>
+                            There is a maximum of 5 cards per person, at a maximum of 3 volunteer hours per card.
+                            However, hours are given
                             at the discretion of the FOCUS Youth Team.</span></li>
-                        <li><span>Send the cards to info@focusyouth.ca. The cards should be either a Canva link or PDF.</span></li>
-                        <li><span>Title the email “Care Package Cards”</span></li>
-                        <li><span>In the email, include your full name, your grade, and the school you are currently attending.</span></li>
-                        <li><span>
-                            Indicate how many hours were spent on each card. We will send you a proof of volunteering letter once we 
-                            have received your email.  If you would like us to sign a specific volunteer form, please include the form in the email. 
+                    <li><span>Send the cards to info@focusyouth.ca. The cards should be either a Canva link or
+                            PDF.</span></li>
+                    <li><span>Title the email “Care Package Cards”</span></li>
+                    <li><span>In the email, include your full name, your grade, and the school you are currently
+                            attending.</span></li>
+                    <li><span>
+                            Indicate how many hours were spent on each card. We will send you a proof of volunteering
+                            letter once we
+                            have received your email. If you would like us to sign a specific volunteer form, please
+                            include the form in the email.
                         </span></li>
-                    </ul>
-                    <br>
-                    <span style="font-size: 1vw; margin-left: 3vw;">Thank you for your interest and have fun!</span>
-                    <hr>
-                </div>
-            </div>
-            <div class="page-portion" style="margin-top: 2vw;">
-                <h1>Care Package Assembly</h1>
-                <table>
-                    <tr>
-                        <td rowspan="2"><img class="care-package-video-reel-img" src="../images/care-package-video-reel-img.png" alt="care package video reel img" href="https://www.instagram.com/p/CLf9lVcg99x"></td>
-                        <td>
-                            <div class="care-package-assembly-bubble">
-                                <span class="assembly-text">
-                                    Watch our assembly reel to see how we assembled our care packages. All surfaces were santized before use and 
-                                    gloves were worn duing the process. Check the image below to see the contents of the care packages before assembly!
-                                </span>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><img class="assembly-contents" src="../images/assembly-contents.png" alt="assembly contents"></td>
-                    </tr>
-                </table>
-            </div>
-            <div class="page-portion">
-                <table>
-                    <tr>
-                        <td>
-                            <div class="delivery-bubble">
-                                <span class="delivery-text">
-                                    Watch our recap reel to see our care packages in action.  Our care pacakges were 
-                                    delivered in accordance to COVID-19 regulations. Only 2 members of the team participated 
-                                    in delivering the packages to minimize the risk of infection. Both members filled out 
-                                    COVID-19 self-screening checklists before participating.
-                                </span>
-                            </div>
-                        </td>
-                        <td rowspan="2"><img class="care-package-recap" src="../images/care-package-recap.png" alt="care package recap img" href="https://www.instagram.com/p/CMIzV0CgIe-/"></td>
-                    </tr>
-                    <tr>
-                        <td><img class="colorful-packages" src="../images/colorful-packages.png" alt="colorful packages"></td>
-                    </tr>
-                    <tr>
-                        <td><img class="package-delivery-img1" src="../images/package-delivery-img1.png" alt="package delivery img1"></td>
-                        <td><img class="package-delivery-img2" src="../images/package-delivery-img2.png" alt="package delivery img2"></td>
-                    </tr>
-                </table>
+                </ul>
+                <br>
+                <span style="font-size: 1vw; margin-left: 3vw;">Thank you for your interest and have fun!</span>
                 <hr>
             </div>
-            <div class="page-portion" style="margin-top: 2vw;">
-                <h1>Resources</h1>
-                <div class="resource-bubble">
-                    <span class="resource-text">
-                        Our team was able to deliver 24 care packages to help the homeless during 
-                        these tough and unprecedented times.  However, we believe that everyone can help. Below are some 
-                        resources and ways you can help. If you are a representative from a business, consider supporting 
-                        our initative thorugh monetary or in-kind donations for us to run this intiative again.
-                    </span>
-                </div>
-                <h2>Articles</h2>
-                <ul class="article-list">
-                    <li><a href="https://themedium.ca/features/the-impact-of-covid-19-on-homelessness/" target="_blank">https://themedium.ca/features/the-impact-of-covid-19-on-homelessness/</a></li>
-                    <li><a href="https://www.thestar.com/amp/news/gta/2020/11/08/even-with-winter-coming-homeless-people-living-in-park-encampments-want-to-stay.html" target="_blank">https://www.thestar.com/amp/news/gta/2020/11/08/even-with-winter-coming-homeless-people-living-in-park-encampments-want-to-stay.html</a></li>
-                    <li><a href="https://www.thestar.com/news/gta/2021/02/06/star-photographer-ren-johnston-captures-life-on-the-streets-for-torontos-homeless-many-now-surviving-in-makeshift-encampments.html" target="_blank">https://www.thestar.com/news/gta/2021/02/06/star-photographer-ren-johnston-captures-life-on-the-streets-for-torontos-homeless-many-now-surviving-in-makeshift-encampments.html</a></li>
-                    <li><a href="https://www.cbc.ca/news/canada/toronto/ont-homeless-encampments-1.5920822" target="_blank">https://www.cbc.ca/news/canada/toronto/ont-homeless-encampments-1.5920822</a></li>
-                    <li><a href="https://www.cbc.ca/news/canada/toronto/ontario-s-homeless-5-times-more-likely-to-die-of-covid-19-study-finds-1.5869024 " target="_blank">https://www.cbc.ca/news/canada/toronto/ontario-s-homeless-5-times-more-likely-to-die-of-covid-19-study-finds-1.5869024</a></li>
-                </ul>
-                <h2>Donate</h2>
-                <ul class="donate-list">
-                    <span>Young Street Mission:</span>
-                    <li><a href="https://www.ysm.ca" target="_blank">https://www.ysm.ca</a></li>
-                    <span>Engage and Change:</span>
-                    <li><a href="https://www.engageandchange.org/" target="_blank">https://www.engageandchange.org/</a></li>
-                    <span>Good Shepherd Ministries:</span>
-                    <li><a href="https://www.goodshepherd.ca" target="_blank">https://www.goodshepherd.ca</a></li>
-                    <span>The Encampment Support Network:</span>
-                    <li><a href="https://www.encampmentsupportnetwork.com" target="_blank">https://www.encampmentsupportnetwork.com</a></li>
-                    <span>Fred Victor:</span>
-                    <li><a href="https://www.fredvictor.org" target="_blank">https://www.fredvictor.org</a></li>
-                </ul>
-                <hr>
+        </div>
+        <div class="page-portion" style="margin-top: 2vw;">
+            <h1>Care Package Assembly</h1>
+            <table>
+                <tr>
+                    <td rowspan="2">
+                        <a href="https://www.instagram.com/p/CLf9lVcg99x" target="_blank">
+                            <img class="care-package-video-reel-img" src="../images/care-package-video-reel-img.png"
+                                alt="care package video reel img"> </a>
+                    </td>
+                    <td>
+                        <div class="care-package-assembly-bubble">
+                            <span class="assembly-text">
+                                Watch our assembly reel to see how we assembled our care packages. All surfaces were
+                                santized before use and
+                                gloves were worn duing the process. Check the image below to see the contents of the
+                                care packages before assembly!
+                            </span>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img class="assembly-contents" src="../images/assembly-contents.png" alt="assembly contents">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="page-portion">
+            <table>
+                <tr>
+                    <td>
+                        <div class="delivery-bubble">
+                            <span class="delivery-text">
+                                Watch our recap reel to see our care packages in action. Our care pacakges were
+                                delivered in accordance to COVID-19 regulations. Only 2 members of the team participated
+                                in delivering the packages to minimize the risk of infection. Both members filled out
+                                COVID-19 self-screening checklists before participating.
+                            </span>
+                        </div>
+                    </td>
+                    <td rowspan="2">
+                        <a href="https://www.instagram.com/p/CMIzV0CgIe-/" target="_blank">
+                            <img class="care-package-recap" src="../images/care-package-recap.png"
+                                alt="care package recap img"> </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img class="colorful-packages" src="../images/colorful-packages.png" alt="colorful packages">
+                    </td>
+                </tr>
+                <tr>
+                    <td><img class="package-delivery-img1" src="../images/package-delivery-img1.png"
+                            alt="package delivery img1"></td>
+                    <td><img class="package-delivery-img2" src="../images/package-delivery-img2.png"
+                            alt="package delivery img2"></td>
+                </tr>
+            </table>
+            <hr>
+        </div>
+        <div class="page-portion" style="margin-top: 2vw;">
+            <h1>Resources</h1>
+            <div class="resource-bubble">
+                <span class="resource-text">
+                    Our team was able to deliver 24 care packages to help the homeless during
+                    these tough and unprecedented times. However, we believe that everyone can help. Below are some
+                    resources and ways you can help. If you are a representative from a business, consider supporting
+                    our initative thorugh monetary or in-kind donations for us to run this intiative again.
+                </span>
             </div>
-        </main>
-        <footer>
-            <hr class="footer-line">
-            <div class="footer_content">
-              <div class="footer-item">
+            <h2>Articles</h2>
+            <ul class="article-list">
+                <li><a href="https://themedium.ca/features/the-impact-of-covid-19-on-homelessness/"
+                        target="_blank">https://themedium.ca/features/the-impact-of-covid-19-on-homelessness/</a></li>
+                <li><a href="https://www.thestar.com/amp/news/gta/2020/11/08/even-with-winter-coming-homeless-people-living-in-park-encampments-want-to-stay.html"
+                        target="_blank">https://www.thestar.com/amp/news/gta/2020/11/08/even-with-winter-coming-homeless-people-living-in-park-encampments-want-to-stay.html</a>
+                </li>
+                <li><a href="https://www.thestar.com/news/gta/2021/02/06/star-photographer-ren-johnston-captures-life-on-the-streets-for-torontos-homeless-many-now-surviving-in-makeshift-encampments.html"
+                        target="_blank">https://www.thestar.com/news/gta/2021/02/06/star-photographer-ren-johnston-captures-life-on-the-streets-for-torontos-homeless-many-now-surviving-in-makeshift-encampments.html</a>
+                </li>
+                <li><a href="https://www.cbc.ca/news/canada/toronto/ont-homeless-encampments-1.5920822"
+                        target="_blank">https://www.cbc.ca/news/canada/toronto/ont-homeless-encampments-1.5920822</a>
+                </li>
+                <li><a href="https://www.cbc.ca/news/canada/toronto/ontario-s-homeless-5-times-more-likely-to-die-of-covid-19-study-finds-1.5869024 "
+                        target="_blank">https://www.cbc.ca/news/canada/toronto/ontario-s-homeless-5-times-more-likely-to-die-of-covid-19-study-finds-1.5869024</a>
+                </li>
+            </ul>
+            <h2>Donate</h2>
+            <ul class="donate-list">
+                <span>Young Street Mission:</span>
+                <li><a href="https://www.ysm.ca" target="_blank">https://www.ysm.ca</a></li>
+                <span>Engage and Change:</span>
+                <li><a href="https://www.engageandchange.org/" target="_blank">https://www.engageandchange.org/</a></li>
+                <span>Good Shepherd Ministries:</span>
+                <li><a href="https://www.goodshepherd.ca" target="_blank">https://www.goodshepherd.ca</a></li>
+                <span>The Encampment Support Network:</span>
+                <li><a href="https://www.encampmentsupportnetwork.com"
+                        target="_blank">https://www.encampmentsupportnetwork.com</a></li>
+                <span>Fred Victor:</span>
+                <li><a href="https://www.fredvictor.org" target="_blank">https://www.fredvictor.org</a></li>
+            </ul>
+            <hr>
+        </div>
+    </main>
+    <footer>
+        <hr class="footer-line">
+        <div class="footer_content">
+            <div class="footer-item">
                 <p>
-                  About
+                    About
                 </p>
                 <ul class="footer-list" style="list-style-type: none;">
-                  <li>About Us</li>
-                  <li>Mission</li>
-                  <li>Vision</li>
-                  <li>Meet the Team</li>
-                  <li>Join Us</li>
-                  <li>Contact Us</li>
+                    <li>About Us</li>
+                    <li>Mission</li>
+                    <li>Vision</li>
+                    <li>Meet the Team</li>
+                    <li>Join Us</li>
+                    <li>Contact Us</li>
                 </ul>
-              </div>
-              <div class="footer-item">
+            </div>
+            <div class="footer-item">
                 <p>
-                  Sponsor
+                    Sponsor
                 </p>
                 <ul class="footer-list" style="list-style-type: none;">
-                  <li>Become a sponsor</li>
-                  <li>Our Sponsors</li>
+                    <li>Become a sponsor</li>
+                    <li>Our Sponsors</li>
                 </ul>
-              </div>
-              <div class="footer-item">
+            </div>
+            <div class="footer-item">
                 <p>
-                  Impact
+                    Impact
                 </p>
                 <ul class="footer-list" style="list-style-type: none;">
-                  <li>Events</li>
-                  <li>Initiatives</li>
-                  <li>Upcoming</li>
+                    <li>Events</li>
+                    <li>Initiatives</li>
+                    <li>Upcoming</li>
                 </ul>
-              </div>
-              <div class="footer-item">
+            </div>
+            <div class="footer-item">
                 <p>
-                  Social
+                    Social
                 </p>
                 <ul class="footer-list" style="list-style-type: none;">
-                  <a href="https://www.instagram.com/focusyouthorg/?hl=en" target="empty"><i class="fab fa-instagram-square"></i></a>
-                  <a href="https://www.facebook.com/FOCUSYouth.org/" target="empty"><i class="fab fa-facebook-square"></i></a>
-                  <a href="https://www.linkedin.com/company/focus-youth/about/" target="empty"><i class="fab fa-linkedin"></i></a>
-                  
-                  <!-- <a href="https://twitter.com/FocusYouthOrg" target="empty"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/focusyouthorg/?hl=en" target="empty"><i
+                            class="fab fa-instagram-square"></i></a>
+                    <a href="https://www.facebook.com/FOCUSYouth.org/" target="empty"><i
+                            class="fab fa-facebook-square"></i></a>
+                    <a href="https://www.linkedin.com/company/focus-youth/about/" target="empty"><i
+                            class="fab fa-linkedin"></i></a>
+
+                    <!-- <a href="https://twitter.com/FocusYouthOrg" target="empty"><i class="fab fa-twitter-square"></i></a>
                   <a href="https://www.tiktok.com/@focusyouthorg?lang=en" target="empty"><i class="fab fa-tiktok"></i></a> -->
                 </ul>
-              </div>
             </div>
-            <p class="footer-legal">@2021 by FOCUS Youth Organization - Legal</p>
-        </footer>
-    </body>
-    <script>
-        scrollZoom();
+        </div>
+        <p class="footer-legal">@2021 by FOCUS Youth Organization - Legal</p>
+    </footer>
+</body>
+<script>
+    scrollZoom();
 
-        const checkpoint = 700;
-        window.addEventListener("scroll", () => {
-            const currentScroll = window.pageYOffset;
-            if (currentScroll <= checkpoint) {
+    const checkpoint = 700;
+    window.addEventListener("scroll", () => {
+        const currentScroll = window.pageYOffset;
+        if (currentScroll <= checkpoint) {
             opacity = 1;
-            } else {
+        } else {
             opacity = 0;
-            }
-            document.querySelector(".page-name").style.opacity = opacity;
-            document.querySelector(".mainlogo").style.opacity = opacity;
-            document.querySelector(".footer_content").style.opacity = 1 - opacity;
-            document.querySelector(".footer-legal").style.opacity = 1 - opacity;
-        });
-    </script>
+        }
+        document.querySelector(".page-name").style.opacity = opacity;
+        document.querySelector(".mainlogo").style.opacity = opacity;
+        document.querySelector(".footer_content").style.opacity = 1 - opacity;
+        document.querySelector(".footer-legal").style.opacity = 1 - opacity;
+    });
+</script>
+
 </html>
