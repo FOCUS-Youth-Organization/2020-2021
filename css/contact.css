@@ -39,17 +39,17 @@
   main{
     padding: 1% 0;
     position: relative;
-    background: #f5f5f5;
+    background: #B3E5FE;
     box-shadow: 0px -10px 60px rgba(0,0,0,0.25);
     width: 100vw;
     z-index: 2;
   }
   .contact-form{
+    position: relative;
     background: #FFFFFF;
     border-radius: 10px;
     height: auto;
     width: 40vw;
-    box-shadow: 0px -10px 60px rgba(0,0,0,0.25);
   }
   .contact-form h2, form{
     padding-left: 2vw;
@@ -87,4 +87,40 @@
   #message{
     margin-bottom: 2vw;
   }
-  
+  .contact-text, .contact-form{
+    display: inline-block;
+  }
+  .contact-text{
+    margin-left: 8vw;
+    margin-right: 12vw;
+    width: 30vw;
+  }
+  .contact-text h2{
+    font-size: 2vw;
+    font-weight: bold;
+    margin-top: 5vw;
+    margin-bottom: 1vw;
+  }
+  .contact-text span{
+    display: flex;
+    font-size: 1vw;
+  }
+  .contact-text .il-text{
+    display: inline-block;
+  }
+  .contact-text .underline{
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  .splash-1{
+    margin-left: -8vw;
+    height: 10vw;
+    width: auto;
+  }
+  .splash-2{
+    height: 15vw;
+    width: auto;
+    position: relative;
+    top: -35vw;
+    right: -27vw;
+  }
