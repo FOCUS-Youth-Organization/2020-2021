@@ -76,6 +76,10 @@
     padding-right: 1vw;
     margin-bottom: 2vw;
     margin-left: 28.5vw;
+    transition: 0.3s ease box-shadow;
+  }
+  .contact-form .submit:hover{
+    box-shadow: inset 0 0 0.5vw #FFFFFF, 0 0 1vw #B3E5FE;
   }
   .contact-form input, textarea{
     width: 36vw;
