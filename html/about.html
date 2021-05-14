@@ -296,20 +296,6 @@
           
         }
       });
-
-      const checkpoint = 700;
-      window.addEventListener("scroll", () => {
-        const currentScroll = window.pageYOffset;
-        if (currentScroll <= checkpoint) {
-          opacity = 1;
-        } else {
-          opacity = 0;
-        }
-        document.querySelector(".page-name").style.opacity = opacity;
-        document.querySelector(".mainlogo").style.opacity = opacity;
-        document.querySelector(".footer_content").style.opacity = 1 - opacity;
-        document.querySelector(".footer-legal").style.opacity = 1 - opacity;
-      });
     </script>
     <script src="../JS/bootstrap.js"></script>
 </html>
