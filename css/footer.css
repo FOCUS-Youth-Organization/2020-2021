@@ -9,8 +9,6 @@
     z-index: 1;
   }
   .footer_content{
-    opacity: 0;
-    position: fixed;
     bottom: 7vw;
     padding-top: 2vw;
     display: flex;
@@ -44,8 +42,6 @@
     padding: 0vw;
   }
   .footer-legal{
-    opacity: 0;
-    position: fixed;
     bottom: 2vw;
     padding-top: 5vw;
     display: block;
