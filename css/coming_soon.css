@@ -15,10 +15,10 @@ body {
   font-family: "Vibur", sans-serif;
   text-align: center;
   font-size: 10vw;
-  color: #ff7777;
+  color: #b3e5ff;
   padding: 0.5em 1em;
   border-radius: 5px;
-  text-shadow: 2px 2px 3px #ff4444;
+  text-shadow: 2px 2px 3px #b3e5ff;
 }
 
 .flick {
@@ -32,8 +32,8 @@ body {
     text-shadow: 2px 2px 3px #333;
   }
   0%, 45%, 51%, 70%, 76%, 81%, 98% {
-    color: #ff7777;
-    text-shadow: 2px 2px 3px #ff4444;
+    color: #b3e5ff;
+    text-shadow: 2px 2px 3px #b3e5ff;
   }
 }
 
@@ -43,8 +43,8 @@ body {
     text-shadow: 2px 2px 3px #333;
   }
   0%, 45%, 51%, 70%, 76%, 81%, 98% {
-    color: #ff7777;
-    text-shadow: 2px 2px 3px #ff4444;
+    color: #b3e5ff;
+    text-shadow: 2px 2px 3px #b3e5ff;
   }
 }
 .dely {
