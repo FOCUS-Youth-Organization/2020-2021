@@ -112,8 +112,8 @@
   
   .time-line-background {
     border-radius: 50px;
-    box-shadow: 50px 20px 20px 50px rgba(0, 0, 0, 0.20);
-    background: linear-gradient(to bottom, #00ccff, #FFFFFF, #B3E5FE);
+    box-shadow: none;/*50px 20px 20px 50px rgba(0, 0, 0, 0.20);*/
+    background: #f5f5f5; /*linear-gradient(to bottom, #00ccff, #FFFFFF, #B3E5FE);*/
     background-size: 100%;
     background-repeat: no-repeat;
  }
