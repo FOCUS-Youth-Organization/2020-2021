@@ -5,7 +5,7 @@
   }
   footer{
     background: #000000;
-    min-height: 30vw;
+    height: auto;
     z-index: 1;
   }
   .footer_content{
