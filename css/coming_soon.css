@@ -1,0 +1,57 @@
+/*neon lights*/
+@import url("https://fonts.googleapis.com/css?family=Vibur");
+.container {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background: #111 url(http://i.imgur.com/6QJjYMe.jpg) center center;
+}
+
+.neon {
+  margin-left: -2vw;
+  font-family: "Vibur", sans-serif;
+  text-align: center;
+  font-size: 10vw;
+  color: #b3e5ff;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  text-shadow: 2px 2px 3px #b3e5ff;
+}
+
+.flick {
+  -webkit-animation: flick 2s infinite alternate;
+  animation: flick 2s infinite alternate;
+}
+
+@-webkit-keyframes flick {
+  100%, 48%, 73%, 80% {
+    color: #333;
+    text-shadow: 2px 2px 3px #333;
+  }
+  0%, 45%, 51%, 70%, 76%, 81%, 98% {
+    color: #b3e5ff;
+    text-shadow: 2px 2px 3px #b3e5ff;
+  }
+}
+
+@keyframes flick {
+  100%, 48%, 73%, 80% {
+    color: #333;
+    text-shadow: 2px 2px 3px #333;
+  }
+  0%, 45%, 51%, 70%, 76%, 81%, 98% {
+    color: #b3e5ff;
+    text-shadow: 2px 2px 3px #b3e5ff;
+  }
+}
+.dely {
+  -webkit-animation-delay: 300ms;
+          animation-delay: 300ms;
+  animation-direction: alternate-reverse;
+}
+.neon span{
+    margin-right: -3.4vw;
+}
