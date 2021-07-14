@@ -1,6 +1,6 @@
 body{
   font-family: 'Montserrat', sans-serif;
-  margin: 0vw;
+  margin: 0px;
 }
 /*nav bar*/
 .nav_bar{
@@ -9,14 +9,14 @@ body{
   background: #000000;
   position: fixed;
   width: 100vw;
-  height: 3.8px;
-  left: 0vw;
-  top: 0vw;
+  height: 55px;
+  left: 0px;
+  top: 0px;
 }
 .nav_bar>nav>p{
   color: #FFFFFF;
   position: absolute;
-  font-size: 20vw;
+  font-size: 20px;
   left:5vw;
   top:-5px;
   font-weight: bold;
@@ -27,10 +27,10 @@ body{
   display: grid; 
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 55px;
-  grid-gap: 40vw;
+  grid-gap: 40px;
   right: 1vw;
   top:13px;
-  margin:0vw;
+  margin:0px;
   width: 50vw;
 }
 .nav_bar>nav>ul>li{
@@ -40,7 +40,7 @@ body{
   text-decoration: none;
   text-align: center;
   color: #FFFFFF;
-  font-size: 20vw;
+  font-size: 20px;
   padding-left: 0.5vw;
 }
 .nav_block>nav>ul>li.dropdown {
@@ -51,8 +51,8 @@ body{
   position: absolute;
   top: 41px;
   background-color: #000000;
-  min-width: 160vw;
-  box-shadow: 0vw 8px 16px 0vw rgba(0,0,0,0.2);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 .drop_down_content>a {
@@ -77,29 +77,29 @@ body{
 }
 /*formatting nav bar logo*/
 .nav_bar>nav>img{
-  width: 40vw;
-  height: 40vw;
+  width: 40px;
+  height: 40px;
   vertical-align: 1px;
-  padding-right: 10vw;
+  padding-right: 10px;
   margin-left: 1.8vw;
   margin-top: 5px;
 }
 /*hover effect of nav bar elements*/
 .nav_bar>nav>ul>li:hover{
   font-weight: bold;
-  font-size: 20vw;
+  font-size: 20px;
 }
 /*backdrop fomatting*/
 #backdrop{
-  margin: 0vw;
-  left: 0vw;
+  margin: 0px;
+  left: 0px;
   position: absolute;
-  padding: 0vw;
+  padding: 0px;
   top: 55px;
   width: 100vw;
   z-index: -1;
   object-fit: cover;
-  object-position:0vw 0vw; 
+  object-position:0px 0px; 
 }
 /*main logo fomatting*/
 #mainlogo{
@@ -112,39 +112,39 @@ body{
 /*title*/
 #slogan>h1{
   font-weight: bold;
-  font-size: 50vw;
+  font-size: 50px;
   line-height: 59px;  
 }
 #slogan{
   font-style: normal;
-  margin-top: 600vw;
+  margin-top: 600px;
   color: #FFFFFF;
   text-align: left;
   margin-left: 11.5vw;
   margin-right: 28vw;
 }
 #slogan>p{
-  font-size: 30vw;
+  font-size: 30px;
   line-height: 35px;
 }
 .banners{
   background: #B3E5FE;
   text-align: center;
-  padding: 40vw;
-  font-size: 40vw;
+  padding: 40px;
+  font-size: 40px;
   font-weight:bold;
-  margin-top: 30vw;
+  margin-top: 30px;
 }
 #founders_banner{
-  margin-top: 280vw;
+  margin-top: 280px;
 }
 .profiles{
   margin: auto;
-  margin-bottom: 80vw;
+  margin-bottom: 80px;
 }
 .profiles>img{
   object-fit: cover;
-  object-position:0vw 0vw; 
+  object-position:0px 0px; 
   width: 306.05px;
   height: 306.05px;
   border-radius: 50vw;
@@ -154,14 +154,14 @@ body{
   text-align: center;
 }
 .profiles>div>h1{
-  font-size: 30vw;
+  font-size: 30px;
 }
 .photo-container{
   display: grid;
   grid-template-columns: repeat(12,1fr);
-  margin-top: 80vw;
+  margin-top: 80px;
 }
- 
+
 #website_footer{
   top: 3187px;
 }
@@ -173,30 +173,30 @@ hr{
   border-top: 1px solid #000000;
   left: 4vw;
   right: 4vw;
-  top: 7300vw;
+  top: 7300px;
   padding: 0;
  }
- 
+
 .footer_content>div{
   position:absolute;
-  top:7350vw;
+  top:7350px;
   
 }
 .footer_content>div>p{
   position:absolute;
   font-weight: 900;
   text-align:center;
-  font-size: 20vw;
+  font-size: 20px;
 }
 .footer_content>div>ul{
   position:absolute;
-  top: 60vw;
+  top: 60px;
 }
 .footer_content>div>ul>li{
   padding-bottom: 8px;
 }
 #about_footer{
-  width:200vw;
+  width:200px;
   left: 5vw;
   
 }
@@ -204,25 +204,23 @@ hr{
   left: 20vw;
 }
 #s_footer{
-  width:200vw;
+  width:200px;
   left: 25vw;
 }
 #s_footer>p{
   left: 20vw;
 }
 #impact_footer{
-  width:200vw;
+  width:200px;
   left: 45vw;
 }
 #impact_footer>p{
   left: 20vw;
 }
 #soc_footer{
-  width:200vw;
+  width:200px;
   left: 65vw;
 }
 #soc_footer>p{
   left: 20vw;
 }
- 
-
