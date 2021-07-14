@@ -6,7 +6,7 @@ body{
 .nav_bar{
   z-index: 10;
   /*border: 2px solid #b3e5ff;*/
-  background: #000000;
+  background: #a81818;
   position: fixed;
   width: 100vw;
   height: 3.8vw;
